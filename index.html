@@ -7,6 +7,10 @@
 	<title>Robert Palmer Portfolio Website</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+	<!-- Include Google fonts here! -->
+
+	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
 	<header>
@@ -18,13 +22,94 @@
 		</button>
 		<nav class="nav">
 			<ul class='nav__list'>
-				<li class="nav__item"><a href="#">About me</a></li>
-				<li class="nav__item"><a href="#">Portfolio</a></li>
-				<li class="nav__item"><a href="#">Contact</a></li>
+				<li class="nav__item"><a href="#about">About me</a></li>
+				<li class="nav__item"><a href="#tools">Tools</a></li>
+				<li class="nav__item"><a href="#work">Portfolio</a></li>
+				<li class="nav__item"><a href="#contact">Contact</a></li>
 			</ul>
 		</nav>
 	</header>
-	<h1>Robert Palmer</h1>
+
+	<!-- Introduction -->
+	<section class="intro" id="home">
+		<h1 class="section__title section__title--intro">Robert Palmer</h1>
+		<p class="section__subtitle section__subtitle--intro">Front-End Dev</p>
+		<!-- Maybe include a photo in this section -->
+	</section>
+
+	<!-- My Services - what tools you have used -->
+	<section class="my-services" id="tools">
+		<h2 class="section__title section__title--services">Technologies </h2>
+		<div class="services">
+			<div class="service">
+				<h3>Front-End</h3>
+				<p></p>
+			</div>
+
+			<div class="service">
+				<h3>Back-End</h3>
+				<p></p>
+			</div>
+
+			<div class="service">
+				<h3>Other Tools</h3>
+				<p></p>
+			</div>
+		</div>
+
+		<a href="#work"></a>
+	</section>
+
+	<!-- About Me -->
+	<section class="about-me" id="about">
+		<h2 class="section__title section__title--about">About Me</h2>
+		<p class="section__subtitle section__subtitle--about"></p>
+		<div class="about-me__body">
+			<p></p>
+			<p></p>
+		</div>
+
+		<!-- Include img if you want -->
+	</section>
+
+	<!-- Work-Portfolio -->
+	<section class="my-work" id="work">
+		<h2 class="section__title">Portfolio</h2>
+		<p class="section__subtitle"></p>
+
+		<div class="portfolio">
+			<!-- 5 projects here -->
+			<a href="#" class="portfolio__item">
+				<img src="">
+			</a>
+
+			<a href="#" class="portfolio__item">
+				<img src="">
+			</a>
+
+			<a href="#" class="portfolio__item">
+				<img src="">
+			</a>
+
+			<a href="#" class="portfolio__item">
+				<img src="">
+			</a>
+
+			<a href="#" class="portfolio__item">
+				<img src="">
+			</a>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer>
+		<a href="mailto:r91palmer@gmail.com" class="footer-link" id="contact">r91palmer@gmail.com</a>
+		<ul class="social-list">
+			<!-- linkedin & github -->
+			<li class="social-list__item"><a href="" class="social-list__link"></a></li>
+			<li class="social-list__item"><a href="" class="social-list__link"></a></li>
+		</ul>
+	</footer>
 
 </body>
 </html>
