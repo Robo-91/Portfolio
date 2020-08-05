@@ -58,6 +58,10 @@ img {
 	max-width: 100%;
 }
 
+li {
+	list-style-type: none;
+}
+
 :focus {
 	outline: 3px solid var(--clr-accent);
 	outline-offset: 3px;
@@ -296,6 +300,10 @@ header {
 .service {
 	max-width: 500px;
 	margin: 0 auto;
+}
+
+.service-items {
+	padding: inherit;
 }
 
 @media (min-width: 800px) {
