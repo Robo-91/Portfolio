@@ -378,6 +378,8 @@ header {
 .portfolio {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	column-gap: 10px;
+	row-gap: 10px;
 }
 
 .portfolio__item {
@@ -386,6 +388,7 @@ header {
 }
 
 .portfolio__img {
+
 	transition: 
 	transform 750ms cubic-bezier(.5, 0, .5, 1),
 	opacity 250ms linear;
@@ -398,7 +401,6 @@ header {
 
 .portfolio__img:hover,
 .portfolio__item:focus .portfolio__img {
-	transform: scale(1.2);
 	opacity: .75;
 }
 
