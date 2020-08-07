@@ -404,6 +404,10 @@ header {
 	opacity: .75;
 }
 
+.github-projects-link {
+	color: var(--clr-accent);
+}
+
 /* Footer */
 
 .footer {
