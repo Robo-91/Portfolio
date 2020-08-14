@@ -475,7 +475,7 @@ header {
 /* Individual portfolio item styles */
 
 .portfolio-item-individual {
-	padding: 0 2em 2em;
+	padding: 1em 2em 2.5em 1em;
 	max-width: 1000px;
 	margin: 0 auto;
 	font-family: var(--ff-secondary);
